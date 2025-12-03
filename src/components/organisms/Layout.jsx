@@ -1,11 +1,12 @@
-import React, { useState } from "react"
-import { Outlet, Link, useLocation } from "react-router-dom"
-import { motion } from "framer-motion"
-import Header from "@/components/organisms/Header"
-import ApperIcon from "@/components/ApperIcon"
+import React, { useState } from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
+import Header from "@/components/organisms/Header";
 
 const Layout = () => {
   const location = useLocation()
+  const [isCollapsed, setIsCollapsed] = useState(false)
 
   const navigation = [
     { name: "Dashboard", path: "/", icon: "BarChart3" },
@@ -25,13 +26,27 @@ const Layout = () => {
     return location.pathname.startsWith(path)
   }
 
+  const toggleSidebar = () => {
+    setIsCollapsed(!isCollapsed)
+  }
+
   return (
 <div className="min-h-screen bg-slate-50 flex">
       {/* Desktop Sidebar */}
-      <div className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0">
+      <motion.div 
+        className="hidden md:flex md:flex-col md:fixed md:inset-y-0 z-40"
+        animate={{ width: isCollapsed ? 64 : 256 }}
+        transition={{ type: "spring", stiffness: 300, damping: 30 }}
+      >
         <div className="flex flex-col flex-grow bg-primary-900 border-r border-primary-800 shadow-sm">
-          <div className="flex items-center flex-shrink-0 px-4 py-6 border-b border-primary-800">
-            <h1 className="text-xl font-bold text-white">Campus Hub</h1>
+          <div className={`flex items-center flex-shrink-0 py-6 border-b border-primary-800 ${
+            isCollapsed ? 'px-4 justify-center' : 'px-4'
+          }`}>
+            {isCollapsed ? (
+              <ApperIcon name="GraduationCap" className="w-8 h-8 text-white" />
+            ) : (
+              <h1 className="text-xl font-bold text-white">Campus Hub</h1>
+            )}
           </div>
           <div className="flex-grow flex flex-col">
             <nav className="flex-1 px-3 py-4 space-y-1">
@@ -39,14 +54,19 @@ const Layout = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`relative flex items-center space-x-3 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                  className={`relative flex items-center rounded-lg text-sm font-medium transition-all duration-200 ${
+                    isCollapsed 
+                      ? 'justify-center px-3 py-3' 
+                      : 'space-x-3 px-3 py-2'
+                  } ${
                     isActive(item.path)
                       ? "text-white bg-primary-800"
                       : "text-primary-100 hover:text-primary-200 hover:bg-primary-800"
                   }`}
+                  title={isCollapsed ? item.name : undefined}
                 >
-                  <ApperIcon name={item.icon} className="w-5 h-5" />
-                  <span>{item.name}</span>
+                  <ApperIcon name={item.icon} className="w-5 h-5 flex-shrink-0" />
+                  {!isCollapsed && <span>{item.name}</span>}
                   {isActive(item.path) && (
                     <motion.div
                       layoutId="activeSidebarTab"
@@ -60,15 +80,20 @@ const Layout = () => {
             </nav>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* Main content */}
-      <div className="flex flex-col flex-1 md:ml-64">
-        <Header />
+{/* Main content */}
+      <motion.div 
+        className="flex flex-col flex-1"
+        animate={{ marginLeft: isCollapsed ? 64 : 256 }}
+        transition={{ type: "spring", stiffness: 300, damping: 30 }}
+        style={{ marginLeft: 0 }}
+      >
+        <Header isCollapsed={isCollapsed} onToggleCollapse={toggleSidebar} />
         <main className="flex-1">
           <Outlet />
         </main>
-      </div>
+      </motion.div>
     </div>
   )
 }

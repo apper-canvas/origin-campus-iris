@@ -4,10 +4,9 @@ import { motion } from "framer-motion"
 import ApperIcon from "@/components/ApperIcon"
 import Button from "@/components/atoms/Button"
 
-const Header = () => {
+const Header = ({ isCollapsed, onToggleCollapse }) => {
   const location = useLocation()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-
   const navigation = [
     { name: "Dashboard", path: "/", icon: "BarChart3" },
     { name: "Students", path: "/students", icon: "GraduationCap" },
@@ -60,14 +59,26 @@ const Header = () => {
               className="hidden sm:flex"
             />
             
-{/* Mobile sidebar toggle button */}
-            <Button
-              variant="ghost"
-              size="sm"
-              icon={isMobileMenuOpen ? "X" : "Menu"}
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden"
-            />
+<div className="flex items-center space-x-2">
+              {/* Desktop sidebar collapse button */}
+              <Button
+                variant="ghost"
+                size="sm"
+                icon={isCollapsed ? "PanelRightOpen" : "PanelLeftClose"}
+                onClick={onToggleCollapse}
+                className="hidden md:flex"
+                title={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+              />
+              
+              {/* Mobile sidebar toggle button */}
+              <Button
+                variant="ghost"
+                size="sm"
+                icon={isMobileMenuOpen ? "X" : "Menu"}
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className="md:hidden"
+              />
+            </div>
           </div>
         </div>
 
