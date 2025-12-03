@@ -1,0 +1,210 @@
+[
+  {
+    "Id": 1,
+    "studentId": 1,
+    "courseId": 1,
+    "date": "2024-01-15",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 2,
+    "studentId": 2,
+    "courseId": 1,
+    "date": "2024-01-15",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 3,
+    "studentId": 3,
+    "courseId": 1,
+    "date": "2024-01-15",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 4,
+    "studentId": 4,
+    "courseId": 1,
+    "date": "2024-01-15",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 5,
+    "studentId": 5,
+    "courseId": 1,
+    "date": "2024-01-15",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 6,
+    "studentId": 1,
+    "courseId": 1,
+    "date": "2024-01-17",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 7,
+    "studentId": 2,
+    "courseId": 1,
+    "date": "2024-01-17",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 8,
+    "studentId": 3,
+    "courseId": 1,
+    "date": "2024-01-17",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 9,
+    "studentId": 4,
+    "courseId": 1,
+    "date": "2024-01-17",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 10,
+    "studentId": 5,
+    "courseId": 1,
+    "date": "2024-01-17",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 11,
+    "studentId": 1,
+    "courseId": 2,
+    "date": "2024-01-16",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 12,
+    "studentId": 2,
+    "courseId": 2,
+    "date": "2024-01-16",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 13,
+    "studentId": 6,
+    "courseId": 2,
+    "date": "2024-01-16",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 14,
+    "studentId": 7,
+    "courseId": 2,
+    "date": "2024-01-16",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 15,
+    "studentId": 1,
+    "courseId": 2,
+    "date": "2024-01-18",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 16,
+    "studentId": 2,
+    "courseId": 2,
+    "date": "2024-01-18",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 17,
+    "studentId": 6,
+    "courseId": 2,
+    "date": "2024-01-18",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 18,
+    "studentId": 7,
+    "courseId": 2,
+    "date": "2024-01-18",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 19,
+    "studentId": 3,
+    "courseId": 3,
+    "date": "2024-01-19",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 20,
+    "studentId": 4,
+    "courseId": 3,
+    "date": "2024-01-19",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 21,
+    "studentId": 5,
+    "courseId": 3,
+    "date": "2024-01-19",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 22,
+    "studentId": 8,
+    "courseId": 3,
+    "date": "2024-01-19",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 23,
+    "studentId": 3,
+    "courseId": 3,
+    "date": "2024-01-22",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 24,
+    "studentId": 4,
+    "courseId": 3,
+    "date": "2024-01-22",
+    "status": "present",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 25,
+    "studentId": 5,
+    "courseId": 3,
+    "date": "2024-01-22",
+    "status": "absent",
+    "semester": "Fall 2024"
+  },
+  {
+    "Id": 26,
+    "studentId": 8,
+    "courseId": 3,
+    "date": "2024-01-22",
+    "status": "present",
+    "semester": "Fall 2024"
+  }
+]

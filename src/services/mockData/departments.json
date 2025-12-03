@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "1",
+    "name": "Computer Science",
+    "code": "CS",
+    "headOfDepartment": "Dr. Robert Johnson",
+    "description": "Department focusing on software development, algorithms, and computer systems."
+  },
+  {
+    "Id": "2",
+    "name": "Mathematics",
+    "code": "MATH",
+    "headOfDepartment": "Dr. Maria Rodriguez",
+    "description": "Department offering courses in pure and applied mathematics."
+  },
+  {
+    "Id": "3",
+    "name": "English",
+    "code": "ENG",
+    "headOfDepartment": "Prof. William Thompson",
+    "description": "Department dedicated to literature, writing, and communication studies."
+  },
+  {
+    "Id": "4",
+    "name": "Biology",
+    "code": "BIO",
+    "headOfDepartment": "Dr. Lisa Chen",
+    "description": "Department covering life sciences, from molecular biology to ecology."
+  },
+  {
+    "Id": "5",
+    "name": "History",
+    "code": "HIST",
+    "headOfDepartment": "Dr. James Miller",
+    "description": "Department exploring world history, culture, and political science."
+  },
+  {
+    "Id": "6",
+    "name": "Physics",
+    "code": "PHY",
+    "headOfDepartment": "Dr. Michael Davis",
+    "description": "Department studying fundamental principles of matter and energy."
+  }
+]

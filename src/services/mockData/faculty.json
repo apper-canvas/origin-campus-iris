@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "firstName": "Dr. Robert",
+    "lastName": "Johnson",
+    "email": "robert.johnson@college.edu",
+    "phone": "(555) 111-2222",
+    "departmentId": "1",
+    "designation": "Professor",
+    "joiningDate": "2015-08-15",
+    "specialization": "Computer Science, Software Engineering"
+  },
+  {
+    "Id": 2,
+    "firstName": "Dr. Maria",
+    "lastName": "Rodriguez",
+    "email": "maria.rodriguez@college.edu",
+    "phone": "(555) 222-3333",
+    "departmentId": "2",
+    "designation": "Associate Professor",
+    "joiningDate": "2018-01-20",
+    "specialization": "Applied Mathematics, Statistics"
+  },
+  {
+    "Id": 3,
+    "firstName": "Prof. William",
+    "lastName": "Thompson",
+    "email": "william.thompson@college.edu",
+    "phone": "(555) 333-4444",
+    "departmentId": "3",
+    "designation": "Professor",
+    "joiningDate": "2012-09-01",
+    "specialization": "English Literature, Creative Writing"
+  },
+  {
+    "Id": 4,
+    "firstName": "Dr. Lisa",
+    "lastName": "Chen",
+    "email": "lisa.chen@college.edu",
+    "phone": "(555) 444-5555",
+    "departmentId": "4",
+    "designation": "Assistant Professor",
+    "joiningDate": "2020-08-25",
+    "specialization": "Molecular Biology, Genetics"
+  },
+  {
+    "Id": 5,
+    "firstName": "Dr. James",
+    "lastName": "Miller",
+    "email": "james.miller@college.edu",
+    "phone": "(555) 555-6666",
+    "departmentId": "5",
+    "designation": "Professor",
+    "joiningDate": "2010-01-15",
+    "specialization": "Modern History, Political Science"
+  },
+  {
+    "Id": 6,
+    "firstName": "Dr. Sarah",
+    "lastName": "Williams",
+    "email": "sarah.williams@college.edu",
+    "phone": "(555) 666-7777",
+    "departmentId": "4",
+    "designation": "Associate Professor",
+    "joiningDate": "2017-03-10",
+    "specialization": "Organic Chemistry, Biochemistry"
+  },
+  {
+    "Id": 7,
+    "firstName": "Dr. Michael",
+    "lastName": "Davis",
+    "email": "michael.davis@college.edu",
+    "phone": "(555) 777-8888",
+    "departmentId": "6",
+    "designation": "Professor",
+    "joiningDate": "2014-08-20",
+    "specialization": "Theoretical Physics, Quantum Mechanics"
+  },
+  {
+    "Id": 8,
+    "firstName": "Dr. Jennifer",
+    "lastName": "Lee",
+    "email": "jennifer.lee@college.edu",
+    "phone": "(555) 888-9999",
+    "departmentId": "1",
+    "designation": "Assistant Professor",
+    "joiningDate": "2021-01-12",
+    "specialization": "Database Systems, Machine Learning"
+  },
+  {
+    "Id": 9,
+    "firstName": "Prof. David",
+    "lastName": "Brown",
+    "email": "david.brown@college.edu",
+    "phone": "(555) 999-0000",
+    "departmentId": "2",
+    "designation": "Lecturer",
+    "joiningDate": "2022-08-15",
+    "specialization": "Calculus, Mathematical Analysis"
+  },
+  {
+    "Id": 10,
+    "firstName": "Dr. Karen",
+    "lastName": "Wilson",
+    "email": "karen.wilson@college.edu",
+    "phone": "(555) 000-1111",
+    "departmentId": "3",
+    "designation": "Associate Professor",
+    "joiningDate": "2016-09-05",
+    "specialization": "Linguistics, Comparative Literature"
+  }
+]

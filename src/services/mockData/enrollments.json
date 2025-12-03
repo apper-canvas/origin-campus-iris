@@ -1,0 +1,137 @@
+[
+  {
+    "Id": 1,
+    "studentId": "1",
+    "courseId": "1",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "A-",
+    "status": "enrolled"
+  },
+  {
+    "Id": 2,
+    "studentId": "1",
+    "courseId": "2",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  },
+  {
+    "Id": 3,
+    "studentId": "2",
+    "courseId": "3",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "B+",
+    "status": "enrolled"
+  },
+  {
+    "Id": 4,
+    "studentId": "2",
+    "courseId": "4",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  },
+  {
+    "Id": 5,
+    "studentId": "3",
+    "courseId": "1",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "B",
+    "status": "enrolled"
+  },
+  {
+    "Id": 6,
+    "studentId": "3",
+    "courseId": "6",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  },
+  {
+    "Id": 7,
+    "studentId": "4",
+    "courseId": "5",
+    "semester": "Spring 2024",
+    "enrollmentDate": "2024-01-10",
+    "grade": "A",
+    "status": "completed"
+  },
+  {
+    "Id": 8,
+    "studentId": "4",
+    "courseId": "7",
+    "semester": "Spring 2024",
+    "enrollmentDate": "2024-01-10",
+    "grade": "B+",
+    "status": "completed"
+  },
+  {
+    "Id": 9,
+    "studentId": "5",
+    "courseId": "8",
+    "semester": "Spring 2024",
+    "enrollmentDate": "2024-01-10",
+    "grade": "C+",
+    "status": "dropped"
+  },
+  {
+    "Id": 10,
+    "studentId": "6",
+    "courseId": "4",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  },
+  {
+    "Id": 11,
+    "studentId": "6",
+    "courseId": "9",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  },
+  {
+    "Id": 12,
+    "studentId": "7",
+    "courseId": "1",
+    "semester": "Spring 2024",
+    "enrollmentDate": "2024-01-10",
+    "grade": "B-",
+    "status": "completed"
+  },
+  {
+    "Id": 13,
+    "studentId": "8",
+    "courseId": "10",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  },
+  {
+    "Id": 14,
+    "studentId": "9",
+    "courseId": "6",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  },
+  {
+    "Id": 15,
+    "studentId": "10",
+    "courseId": "2",
+    "semester": "Fall 2024",
+    "enrollmentDate": "2024-08-15",
+    "grade": "",
+    "status": "enrolled"
+  }
+]
