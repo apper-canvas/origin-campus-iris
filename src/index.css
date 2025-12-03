@@ -26,7 +26,7 @@
 }
 
 .Toastify__progress-bar {
-  @apply bg-gradient-to-r from-primary-500 to-primary-600;
+  @apply bg-gradient-to-r from-purple-500 to-purple-600;
 }
 
 /* Base styles */
@@ -124,7 +124,7 @@ body {
 }
 
 .status-enrolled {
-  @apply bg-primary-100 text-primary-800 border border-primary-200;
+  @apply bg-purple-100 text-purple-800 border border-purple-200;
 }
 
 .status-completed {
