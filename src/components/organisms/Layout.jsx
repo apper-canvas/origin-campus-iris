@@ -39,13 +39,31 @@ const Layout = () => {
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
       >
         <div className="flex flex-col flex-grow bg-primary-900 border-r border-primary-800 shadow-sm">
-          <div className={`flex items-center flex-shrink-0 py-6 border-b border-primary-800 ${
-            isCollapsed ? 'px-4 justify-center' : 'px-4'
+<div className={`flex items-center flex-shrink-0 py-6 border-b border-primary-800 ${
+            isCollapsed ? 'px-4 justify-center' : 'px-4 justify-between'
           }`}>
             {isCollapsed ? (
               <ApperIcon name="GraduationCap" className="w-8 h-8 text-white" />
             ) : (
-              <h1 className="text-xl font-bold text-white">Campus Hub</h1>
+              <>
+                <h1 className="text-xl font-bold text-white">Campus Hub</h1>
+                <button
+                  onClick={toggleSidebar}
+                  className="p-1.5 rounded-md text-primary-200 hover:text-white hover:bg-primary-800 transition-colors duration-200"
+                  title="Collapse sidebar"
+                >
+                  <ApperIcon name="PanelLeftClose" className="w-5 h-5" />
+                </button>
+              </>
+            )}
+            {isCollapsed && (
+              <button
+                onClick={toggleSidebar}
+                className="absolute top-6 right-3 p-1.5 rounded-md text-primary-200 hover:text-white hover:bg-primary-800 transition-colors duration-200"
+                title="Expand sidebar"
+              >
+                <ApperIcon name="PanelRightOpen" className="w-4 h-4" />
+              </button>
             )}
           </div>
           <div className="flex-grow flex flex-col">

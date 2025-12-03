@@ -59,26 +59,14 @@ const Header = ({ isCollapsed, onToggleCollapse }) => {
               className="hidden sm:flex"
             />
             
-<div className="flex items-center space-x-2">
-              {/* Desktop sidebar collapse button */}
-              <Button
-                variant="ghost"
-                size="sm"
-                icon={isCollapsed ? "PanelRightOpen" : "PanelLeftClose"}
-                onClick={onToggleCollapse}
-                className="hidden md:flex"
-                title={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
-              />
-              
-              {/* Mobile sidebar toggle button */}
-              <Button
-                variant="ghost"
-                size="sm"
-                icon={isMobileMenuOpen ? "X" : "Menu"}
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="md:hidden"
-              />
-            </div>
+{/* Mobile sidebar toggle button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              icon={isMobileMenuOpen ? "X" : "Menu"}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden"
+            />
           </div>
         </div>
 
